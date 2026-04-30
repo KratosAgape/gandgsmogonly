@@ -37,21 +37,23 @@ const swiper = new Swiper('.swiper.swiper-one', {
 const swiperTwo = new Swiper('.swiper.swiper-two', {
   grabCursor: false, // Disables the grab hand cursor
   allowTouchMove: false, // Disables dragging and swiping entirely
-  slidesPerView: 3,
-  spaceBetween: 0,
-  // Responsive breakpoints
-  breakpoints: {
-    // when window width is >= 640px
-    640: {
       slidesPerView: 3,
-      spaceBetween: 5
-    },
-    // when window width is >= 1024px
-    1024: {
-      slidesPerView: 6,
-      spaceBetween: 10
-    },
-  },
+      spaceBetween: 0,
+  // Responsive breakpoints
+      breakpoints: {
+        640: {
+          slidesPerView: 3,
+          spaceBetween: 0,
+        },
+        768: {
+          slidesPerView: 6,
+          spaceBetween: 10,
+        },
+        1024: {
+          slidesPerView: 6,
+          spaceBetween: 10,
+        },
+      },
 
   loop: true,
   centeredSlides: true,   // Centers the active slide
