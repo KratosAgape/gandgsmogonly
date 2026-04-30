@@ -38,7 +38,7 @@ const swiperTwo = new Swiper('.swiper.swiper-two', {
   grabCursor: false, // Disables the grab hand cursor
   allowTouchMove: false, // Disables dragging and swiping entirely
   slidesPerView: 3,
-  spaceBetween: 5,
+  spaceBetween: 0,
   // Responsive breakpoints
   breakpoints: {
     // when window width is >= 640px
