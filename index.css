@@ -21,6 +21,7 @@ html {
 
 .drawer  {
     z-index: 5 !important;
+    background-color: var(--primary-bg-color) !important;
 }
 
 .site-header__menu-toggle--open, .site-header__menu-toggle--close {
